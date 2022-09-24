@@ -1,0 +1,46 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "footer footer footer footer";
+    grid-gap: 0.2rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+    text-align: auto;
+} 
+
+nav {
+    background: grey;
+    grid-area: nav;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    text-align: center;
+    
+}
+
+footer { 
+    background: grey;
+    grid-area: footer;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    text-align: left;
+    
+}
+
+
+@media only screen and (max-width: 550px) {
+    .navbar{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "nav nav nav nav";
+
+        
+
+    }
+
+}

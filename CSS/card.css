@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  /* margin: 10rem; */
+  /* height: 100vh; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.card:hover .blog-post-img {
+  transform: scale(1.5);
+}
+
+.blog-post-title h2 {
+  color: black;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  transform: right;
+}
+
+figure {
+  margin: 0;
+}

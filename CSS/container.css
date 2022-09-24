@@ -1,0 +1,59 @@
+.container {
+    display: grid;
+    height: auto;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-areas: 
+    "box1 box2 box3";
+    grid-gap: 0.5rem;  
+    font-size: 15px;
+    color: black;
+    text-align: center;
+  }
+
+  #box1{
+      background:  #a5a5a5;
+      grid-area: box1;
+      border-radius: var(--main-radius);
+      padding-top: var(--main-padding);
+      transition: .5s;
+
+  }
+
+  #box2{
+      background:  #a5a5a5;
+      grid-area: box2;
+      border-radius: var(--main-radius);
+      padding-top: var(--main-padding);
+      transition: .5s;
+  }
+
+
+  #box3{
+      background:  #a5a5a5;
+      grid-area: box3;
+      border-radius: var(--main-radius);
+      padding-top: var(--main-padding);
+      transition: .5s;
+  }
+
+  #box1:hover {
+    transform: scale(1.5);
+  }
+
+  #box2:hover{
+    transform: scale(1.5);
+  }
+
+  #box3:hover{
+    transform: scale(1.5);
+  }
+
+  @media screen and (min-width: 549px) {
+    .container {
+      grid-template-rows: 2fr;
+    }
+  }

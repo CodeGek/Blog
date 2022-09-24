@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import "blog-post.css";
+@import "card.css";
+@import "container.css";
+@import "media.css";
+@import "test.css";
+@import "navbar.css";
+
+body {
+  font-family: "Playfair Display", serif;
+  background-color: #f1f1f1;
+}
+
+img {
+  width: 100%;
+}
