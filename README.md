@@ -8,3 +8,22 @@ Table of Contents
 * Prerequisites
 * Contributing
 * License
+
+# Features
+* Simple and clean design for easy reading.
+* Responsive layout for different screen sizes.
+* Easy-to-use structure to add new blog posts.
+* CSS styles for a visually appealing experience.
+
+
+# Prerequisites
+Make sure you have the following installed:
+*Web browser (e.g., Chrome, Firefox, Safari)
+
+
+# Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+
+# License
+This project is licensed under Udacity.
+
