@@ -4,10 +4,10 @@ It provides a basic structure for creating and displaying blog posts.
 Use this template as a starting point to build your own blog and share your thoughts with the world!
 
 Table of Contents
-* Features
-* Prerequisites
-* Contributing
-* License
+* [#Features](#features)
+* [#Prerequisites](#prerequisites)
+* [#Contributing](#contributing)
+* [#License](#license)
 
 # Features
 * Simple and clean design for easy reading.
